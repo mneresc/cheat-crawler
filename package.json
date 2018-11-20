@@ -1,0 +1,31 @@
+{
+  "name": "cheat-crawler",
+  "version": "1.0.0",
+  "description": "This lib make requests for pages get complete pages including javascript",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mneresc/cheat-crawler.git"
+  },
+  "keywords": [
+    "crawler",
+    "scraping",
+    "tor",
+    "anonymous",
+    "crawler"
+  ],
+  "author": "Marcelo Neres <mneresc@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mneresc/cheat-crawler/issues"
+  },
+  "homepage": "https://github.com/mneresc/cheat-crawler#readme",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "puppeteer": "^1.10.0",
+    "tor-request": "^2.3.0"
+  }
+}
