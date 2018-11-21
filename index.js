@@ -7,3 +7,4 @@ tr.request('https://pt.wikipedia.org/wiki/Lista_de_epis%C3%B3dios_de_Naruto_Ship
     console.log(err);
   }
 });
+//const browser = await puppeteer.launch({headless: false,args:['--proxy-server="socks5://127.0.0.1:9050"']});
